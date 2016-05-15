@@ -27,7 +27,13 @@
         <activity
             android:name=".DashboardActivity"
             android:label="@string/title_activity_dashboard"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".DeskActivity" >
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DeskActivity" />
+        </activity>
     </application>
 
 </manifest>
