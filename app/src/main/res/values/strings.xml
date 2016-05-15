@@ -2,4 +2,6 @@
     <string name="app_name">MyDemoHaitiHackfet</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_desk">DeskActivity</string>
+    <string name="dashboard">Rapo</string>
+    <string name="clinic_fanm">Klinik Fanm</string>
 </resources>
