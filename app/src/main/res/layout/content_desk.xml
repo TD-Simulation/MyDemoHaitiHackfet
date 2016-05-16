@@ -35,17 +35,17 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button3"
-        android:layout_alignTop="@+id/button4"
+        android:text="@string/klinik_timoun"
+        android:id="@+id/btnKlinikTimoun"
+        android:layout_alignTop="@+id/btnMatron"
         android:layout_alignLeft="@+id/btnDashboard"
         android:layout_alignStart="@+id/btnDashboard" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button4"
+        android:text="@string/matrone"
+        android:id="@+id/btnMatron"
         android:layout_marginBottom="140dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"

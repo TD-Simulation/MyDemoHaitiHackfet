@@ -5,4 +5,6 @@
     <string name="dashboard">Rapo</string>
     <string name="clinic_fanm">Klinik Fanm</string>
     <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="klinik_timoun">Klinik Timoun</string>
+    <string name="matrone">Matron</string>
 </resources>
