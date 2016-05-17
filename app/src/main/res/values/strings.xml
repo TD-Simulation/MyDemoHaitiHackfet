@@ -5,7 +5,4 @@
     <string name="dashboard">Rapo</string>
     <string name="clinic_fanm">Klinik Fanm</string>
     <string name="title_activity_dashboard">DashboardActivity</string>
-    <string name="title_activity_splash_screen">SplashScreenActivity</string>
-    <string name="title_activity_matron">MatronActivity</string>
-    <string name="title_activity_klinik_timoun">KlinikTimounActivity</string>
 </resources>
