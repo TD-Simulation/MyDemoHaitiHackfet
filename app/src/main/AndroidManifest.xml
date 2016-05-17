@@ -34,6 +34,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".DeskActivity" />
         </activity>
+        <activity
+            android:name=".KlinikFanmActivity"
+            android:label="@string/title_activity_klinik_fanm"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
