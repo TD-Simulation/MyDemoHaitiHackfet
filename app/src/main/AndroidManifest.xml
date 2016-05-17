@@ -51,7 +51,9 @@
         <activity
             android:name=".KlinikTimounActivity"
             android:label="@string/title_activity_klinik_timoun"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar">
+            
+        </activity>
     </application>
 
 </manifest>
