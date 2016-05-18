@@ -31,5 +31,20 @@ public class DeskActivity extends AppCompatActivity {
         Intent dash = new Intent(DeskActivity.this, DashboardActivity.class);
         startActivity(dash);
     }
+//open Activity Klinik fanm
+    public void onFanm(View v){
+        //Intent dash = new Intent(DeskActivity.this, KlinikFanmActivity.class);
+       // startActivity(dash);
+    }
+//open activity klinik timoun
+    public void onTimoun(View v){
+        Intent timoun = new Intent(DeskActivity.this, KlinikTimounActivity.class);
+        startActivity(timoun);
+    }
+//open activity matron
+    public void onMatron(View v){
+        Intent matron = new Intent(DeskActivity.this, MatronActivity.class);
+        startActivity(matron);
+    }
 
 }
