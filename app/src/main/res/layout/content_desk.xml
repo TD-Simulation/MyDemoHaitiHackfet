@@ -30,7 +30,8 @@
         android:id="@+id/btnClinikFanm"
         android:layout_alignTop="@+id/btnDashboard"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="onFanm" />
 
     <Button
         android:layout_width="wrap_content"
@@ -39,7 +40,8 @@
         android:id="@+id/btnKlinikTimoun"
         android:layout_alignTop="@+id/btnMatron"
         android:layout_alignLeft="@+id/btnDashboard"
-        android:layout_alignStart="@+id/btnDashboard" />
+        android:layout_alignStart="@+id/btnDashboard"
+        android:onClick="onTimoun" />
 
     <Button
         android:layout_width="wrap_content"
@@ -49,5 +51,6 @@
         android:layout_marginBottom="140dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:onClick="onMatron" />
 </RelativeLayout>
