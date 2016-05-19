@@ -7,16 +7,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-public class MatronActivity extends AppCompatActivity {
+public class KlinikFanmActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_matron);
+        setContentView(R.layout.activity_klinik_fanm);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -28,6 +26,6 @@ public class MatronActivity extends AppCompatActivity {
         });
     }
 
-
+    getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 }
