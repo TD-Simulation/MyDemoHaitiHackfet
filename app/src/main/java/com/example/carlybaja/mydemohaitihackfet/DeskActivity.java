@@ -27,14 +27,16 @@ public class DeskActivity extends AppCompatActivity {
         });
     }
 
+    getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
     public void onDash(View v){
         Intent dash = new Intent(DeskActivity.this, DashboardActivity.class);
         startActivity(dash);
     }
 //open Activity Klinik fanm
     public void onFanm(View v){
-        //Intent dash = new Intent(DeskActivity.this, KlinikFanmActivity.class);
-       // startActivity(dash);
+        Intent dash = new Intent(DeskActivity.this, KlinikFanmActivity.class);
+        startActivity(dash);
     }
 //open activity klinik timoun
     public void onTimoun(View v){

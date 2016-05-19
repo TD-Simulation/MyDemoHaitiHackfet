@@ -25,5 +25,6 @@ public class KlinikTimounActivity extends AppCompatActivity {
             }
         });
     }
+    getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 }
